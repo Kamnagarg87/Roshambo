@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		407353C626D99CE10028C496 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407353C526D99CE10028C496 /* AppDelegate.swift */; };
 		407353C826D99CE10028C496 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407353C726D99CE10028C496 /* SceneDelegate.swift */; };
-		407353CA26D99CE10028C496 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407353C926D99CE10028C496 /* ViewController.swift */; };
+		407353CA26D99CE10028C496 /* GameViewConroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407353C926D99CE10028C496 /* GameViewConroller.swift */; };
 		407353CD26D99CE10028C496 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 407353CB26D99CE10028C496 /* Main.storyboard */; };
 		407353CF26D99CEB0028C496 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 407353CE26D99CEB0028C496 /* Assets.xcassets */; };
 		407353D226D99CEB0028C496 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 407353D026D99CEB0028C496 /* LaunchScreen.storyboard */; };
+		407353E926D99FB80028C496 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407353E826D99FB80028C496 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		407353C226D99CE10028C496 /* Roshambo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Roshambo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		407353C526D99CE10028C496 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		407353C726D99CE10028C496 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		407353C926D99CE10028C496 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		407353C926D99CE10028C496 /* GameViewConroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewConroller.swift; sourceTree = "<group>"; };
 		407353CC26D99CE10028C496 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		407353CE26D99CEB0028C496 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		407353D126D99CEB0028C496 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		407353D326D99CEB0028C496 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		407353E826D99FB80028C496 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,12 @@
 			children = (
 				407353C526D99CE10028C496 /* AppDelegate.swift */,
 				407353C726D99CE10028C496 /* SceneDelegate.swift */,
-				407353C926D99CE10028C496 /* ViewController.swift */,
+				407353C926D99CE10028C496 /* GameViewConroller.swift */,
 				407353CB26D99CE10028C496 /* Main.storyboard */,
 				407353CE26D99CEB0028C496 /* Assets.xcassets */,
 				407353D026D99CEB0028C496 /* LaunchScreen.storyboard */,
 				407353D326D99CEB0028C496 /* Info.plist */,
+				407353E826D99FB80028C496 /* ResultViewController.swift */,
 			);
 			path = Roshambo;
 			sourceTree = "<group>";
@@ -137,9 +140,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				407353CA26D99CE10028C496 /* ViewController.swift in Sources */,
+				407353CA26D99CE10028C496 /* GameViewConroller.swift in Sources */,
 				407353C626D99CE10028C496 /* AppDelegate.swift in Sources */,
 				407353C826D99CE10028C496 /* SceneDelegate.swift in Sources */,
+				407353E926D99FB80028C496 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
